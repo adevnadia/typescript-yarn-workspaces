@@ -1,13 +1,13 @@
 {
     "compilerOptions": {
-        "outDir": "./build/",
+        "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
-        "module": "esnext",
+        "module": "commonjs",
         "target": "es6",
-        "jsx": "react",
         "esModuleInterop": true,
+        "resolveJsonModule": true,
         "skipLibCheck": true,
-        "strict": true
+        "strict": true,
     }
 }
